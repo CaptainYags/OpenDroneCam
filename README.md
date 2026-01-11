@@ -6,6 +6,9 @@ One of the most exciting aspects of drones is how they make powerful sensing tec
 This project aims to provide tools for building affordable cameras that are suitable for mapping, photogrammetry, and photography.
 The first version is python code meant to be used on any Raspberry Pi with a camera attached to its CSI port. It outputs an HDMI or analog video preview and captures full-resolution photos when GPIO 18 (pin 12) is shorted to ground (pin 14). This allows flight controllers with relay capability to control when pictures are taken. It can also be used to make a point and shoot camera with a button.
 
+The code runs in Python3 and requires the gpiozero, picamera2, pygame, and time libraries.
+CSI Cameras must be compatible with picamera2.
+
 Future goals:
 
 Add video recording
