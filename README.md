@@ -12,6 +12,8 @@ Add video recording
 
 Improve filename code to prevent overwriting older photos and videos
 
+Provide a Raspberry Pi SD image for easier setup
+
 Save photo and video files to USB device for easier downloading to non-linux systems
 
 Add serial UART based communications to support more flight controllers
